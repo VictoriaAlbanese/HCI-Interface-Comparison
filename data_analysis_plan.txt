@@ -1,0 +1,48 @@
+Data Analysis Plan
+By Victoria Albanese, James Testa, & Becky Campelli
+
+
+Before discussing the data analysis plan, lets first reiterate our hypothesis for clarity:
+	1) Fotor will be perceived by the users as more intuitive
+	2) Photoshop will be perceived by the users as more effective
+	3) Fotor will actually be more intuitive, as reflected by the qualitative data
+	4) Photoshop will actually be more effective, as reflected by the qualitative data
+Where intuitiveness is easy to use; things that indicate this are fast times, low number of attempts, 
+and low reliance on tutorials, and effectiveness is does a good job and makes pictures that are more accurate.  
+Now that that is established, let’s look at how we will analyze our data in such a way that either proves 
+or disproves our hypothesis.
+
+Before testing the data itself, we must check to see if the data is parametric.  For it to be parametric, 
+we must verify that it is both normal and has homogeneity of variance.  Our assumption is that the data is 
+not normally distributed and does not have homogeneity of variance; the reasoning behind this is due to 
+insufficient data. We will run a Shapiro-Wilk test on all the following data groups in the tests to confirm 
+this, and possibly generate some QQ plots.  We will also run the appropriate test for homogeneity of variance 
+(which one will hinge on the results of the normality tests).  Then and only then can we use the ANOVA to see 
+if the difference in means is significant, and to check for correlations.  
+
+The data which we will analyze is as follows.  We will briefly discuss each one after this list, but here is 
+a nice summary of our data and which hypothesis it supports:
+
+	- Self reported task difficulty (hypothesis 1, perceived intuitiveness)
+	- Intrinsic Motivation Inventory results (hypothesis 1, perceived intuitiveness)
+	- Comfort with each editor (hypothesis 2, perceived effectiveness)
+	- Confidence with each editor (hypothesis 2, perceived effectiveness)
+	- Time to complete each subtask (hypothesis 3, actual intuitiveness)
+	- Number of tutorials accessed for each subtask (hypothesis 3, actual intuitiveness)
+	- Number of attempts/dead ends for each subtask (hypothesis 3, actual intuitiveness) 
+	- Pixelwise accuracy of photos (hypothesis 4, actual effectiveness)
+
+To test all of our hypotheses, we will likely use Sign Tests, which are good tests to run for non-normally 
+distributed data, to compare the difference in means of all of our results. All of our tests will compare the 
+two dependent variables of Photoshop and Fotor across two different tasks (T1 and T2). 
+
+For our first hypothesis, we will compare the self reported task difficulty and IMI results. For our second 
+hypothesis, we will compare comfort and confidence with the editor. The more confidence, the greater the perceived 
+effectiveness of the editor is. To test our third hypothesis, we will compare the total time, number of tutorials 
+used, and number of attempts for each task (T1,T2) for each editor.  We run these tests with the assumption that 
+the greater the total time, tutorials accessed, and attempts, the less intuitive the editor is. For our fourth 
+hypothesis, we will compare the pixel wise accuracy. The more accurate the picture it, the greater the effectiveness 
+of the editor.
+
+We look forward to seeing the results of our hard work yield results; regardless of whether or not they support 
+or deny our hypothesis, we are fascinated to see the stories our data tells.
