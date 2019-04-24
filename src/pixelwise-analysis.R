@@ -11,7 +11,7 @@
 
 # importing the data -----------------------------------------------------------
 
-setwd("/Users/jamestesta/Desktop/HCI_Project/HCI-Interface-Comparison/data")
+setwd("/Users/jamestesta/Desktop/HCI-Interface-Comparison/data")
 df <- read.csv("task-qualitative-data.csv")
 
 #df
@@ -46,7 +46,7 @@ plot(df$Photo.Editor, as.numeric(df$Task.1.Accuracy),
 results <- aov(as.numeric(df$Task.2.Accuracy) ~ df$Photo.Editor)
 summary(results)
 plot(df$Photo.Editor, as.numeric(df$Task.2.Accuracy), 
-     main="Task 1 Pixelwise Accuracy Comparisons", 
+     main="Task 2 Pixelwise Accuracy Comparisons", 
      ylab="Percentage ", pch=19)
 
 

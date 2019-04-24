@@ -35,6 +35,6 @@ cor.test(df$Task.2.Blurring...Attempts, as.numeric(df$Photo.Editor), method = "p
 results <- aov(as.numeric(df$Task.2.Blurring...Attempts) ~ df$Photo.Editor)
 summary(results)
 plot(df$Photo.Editor, as.numeric(df$Task.1.Total.Time), 
-     main="Task 1 Total Time", 
+     main="Task 2 Blurring Attempts", 
      ylab="Seconds ", pch=19)
 

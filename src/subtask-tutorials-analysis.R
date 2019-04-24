@@ -33,5 +33,5 @@ cor.test(df$Task.2.Blurring...Tutorials, as.numeric(df$Photo.Editor), method = "
 
 kruskal.test(df$Task.2.Blurring...Tutorials ~ df$Photo.Editor) 
 plot(df$Photo.Editor, df$Task.1.Rotating.Time, 
-     main="Task 1 Rotating Time", 
-     ylab="Seconds ", pch=19)
+     main="Task 2 Blurring Tutorials", 
+     ylab="Total Uses ", pch=19)

@@ -4,7 +4,7 @@
 # Assignment: Final Project
 # Date: April 24, 2019
 #
-# Purpose: This file does analysis on the time, tutorials, and attempts at each 
+# Purpose: This file does analysis on the time at each 
 #  sub task
 #
 ################################################################################
