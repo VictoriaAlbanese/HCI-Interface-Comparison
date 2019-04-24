@@ -26,13 +26,17 @@ by(df$Comfort, df$Photo.Editor, shapiro.test)
 
 library(car)
 
+# Levene Test is for normally distrubuted data
 leveneTest(df$Confidence, df$Photo.Editor)
+# Fligner Test is for non normal data
 fligner.test(df$Comfort, df$Photo.Editor)
 
 
 # Show that the data has a correlation -----------------------------------------
 
+# Pearson is for normally distributed data
 cor.test(df$Confidence, as.numeric(df$Photo.Editor), method = "pearson")
+# Kendal is for non normal data
 cor.test(df$Comfort, as.numeric(df$Photo.Editor), method = "kendall")
 
 
