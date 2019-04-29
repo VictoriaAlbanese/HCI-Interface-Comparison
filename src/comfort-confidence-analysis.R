@@ -26,20 +26,19 @@ by(df$Comfort, df$Photo.Editor, shapiro.test)
 
 library(car)
 
-leveneTest(df$Confidence, df$Photo.Editor)
+fligner.test(df$Confidence, df$Photo.Editor)
 fligner.test(df$Comfort, df$Photo.Editor)
 
 
 # Show that the data has a correlation -----------------------------------------
 
-cor.test(df$Confidence, as.numeric(df$Photo.Editor), method = "pearson")
+cor.test(df$Confidence, as.numeric(df$Photo.Editor), method = "kendall")
 cor.test(df$Comfort, as.numeric(df$Photo.Editor), method = "kendall")
 
 
 # Show a difference in means ---------------------------------------------------
 
-results <- aov(df$Confidence ~ df$Photo.Editor)
-summary(results)
+kruskal.test(df$Confidence ~ df$Photo.Editor) 
 plot(df$Photo.Editor, df$Confidence, 
      main="Confidence Mean Comparisons", 
      ylab="Score ", pch=19)
